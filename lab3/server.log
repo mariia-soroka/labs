@@ -1,8 +1,8 @@
 ERROR 2020-11-29 21:17:12,651 root : Error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03765A90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-INFO 2020-11-29 22:27:01,410 root : Сервер доступний. Час на сервері: 2020-11-29
-INFO 2020-11-29 22:27:01,410 root : Запитувана сторінка: : http://localhost:8000/health/
-INFO 2020-11-29 22:27:01,410 root : Відповідь сервера містить наступні поля:
-INFO 2020-11-29 22:27:01,410 root : Ключ: date, Значення: 2020-11-29
-INFO 2020-11-29 22:27:01,410 root : Ключ: current_page, Значення: http://localhost:8000/health/
-INFO 2020-11-29 22:27:01,411 root : Ключ: server_info, Значення: DESKTOP-1I35C2L
-INFO 2020-11-29 22:27:01,411 root : Ключ: client_info, Значення: {'user_agent': 'python-requests/2.25.0', 'user_ip': '127.0.0.1', 'user_host': ''}
+INFO 2020-11-29 22:27:01,410 root : РЎРµСЂРІРµСЂ РґРѕСЃС‚СѓРїРЅРёР№. Р§Р°СЃ РЅР° СЃРµСЂРІРµСЂС–: 2020-11-29
+INFO 2020-11-29 22:27:01,410 root : Р—Р°РїРёС‚СѓРІР°РЅР° СЃС‚РѕСЂС–РЅРєР°: : http://localhost:8000/health/
+INFO 2020-11-29 22:27:01,410 root : Р’С–РґРїРѕРІС–РґСЊ СЃРµСЂРІРµСЂР° РјС–СЃС‚РёС‚СЊ РЅР°СЃС‚СѓРїРЅС– РїРѕР»СЏ:
+INFO 2020-11-29 22:27:01,410 root : РљР»СЋС‡: date, Р—РЅР°С‡РµРЅРЅСЏ: 2020-11-29
+INFO 2020-11-29 22:27:01,410 root : РљР»СЋС‡: current_page, Р—РЅР°С‡РµРЅРЅСЏ: http://localhost:8000/health/
+INFO 2020-11-29 22:27:01,411 root : РљР»СЋС‡: server_info, Р—РЅР°С‡РµРЅРЅСЏ: DESKTOP-1I35C2L
+INFO 2020-11-29 22:27:01,411 root : РљР»СЋС‡: client_info, Р—РЅР°С‡РµРЅРЅСЏ: {'user_agent': 'python-requests/2.25.0', 'user_ip': '127.0.0.1', 'user_host': ''}
