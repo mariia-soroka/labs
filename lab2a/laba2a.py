@@ -45,6 +45,8 @@ finally:
 
 6. with open("laba2a.txt", "w") as file:
     file.write("Go out from my territory!")
+    
+    Результат в lab2a.txt
 
 7. from functools import reduce
 arr = [1, 3, 4, 2, 7]
