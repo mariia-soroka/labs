@@ -5,8 +5,8 @@ import logging
 FORMAT = '%(asctime)-15s %(name)s %(levelname)s: %(message)s'
 logging.basicConfig(level=logging.INFO, format=FORMAT)
 logger = logging.getLogger()
-parser = argparse.ArgumentParser(description='Приклад передачі аргументів у Python програму.')
-parser.add_argument('-o', '--optional', dest='opt', type=str, help='Цей параметр є вибірковим.')
+parser = argparse.ArgumentParser(description='Передача аргументів у програму Python.')
+parser.add_argument('-o', '--optional', dest='opt', type=str, help='Вибірковий параметр.')
 parser.add_argument('-l', '--logs', dest='logs', action='store_true',
                     help='Якщо виконати команду з цим параметром будуть виводитись логи.')
 
