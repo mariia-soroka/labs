@@ -47,7 +47,7 @@ def home_work():
     if findAM == -1:
         print("Доброї ночі")
     else:
-        print("Доброго дня")
+        print("Добрий день")
     return True
 
 
